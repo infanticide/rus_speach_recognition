@@ -25,9 +25,9 @@ Add-my-wav.ipynb - Добовляет примеры txt и wav файлов н�
 
 ## Requirements
 
-- Python 2.7+
+- Python 3.6
 - Jupyter Notebook
-- Tensorflow 1.0+
+- Tensorflow 1.14.0
 - Keras
 - python_speech_features
 - numpy
@@ -43,4 +43,4 @@ Now, run the "train_lstm_ctc_voxforge_rus" to get the input features for speech 
 
  uses 2 layer bidirectional LSTM network to predict the transcriptions from the audio features. Every 1 epochs, an example batch is decoded and printed for comparision with the target.
 
-Contact parkov33@gmail.com
+Contact prozenkok@gmail.com and Настя Петухова
